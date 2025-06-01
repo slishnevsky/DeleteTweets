@@ -1,7 +1,7 @@
 var authorization = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"; // replace by authorization value
 var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
-var client_tid = "tBL5Nlz/5cJt00hMEG2pJtKKfedLknngMmvVx/XiwfWLvCM5ku9SaJ4653YLqAYC5dFNjbfQzeqCObV/79Ak9rDjYyHDtw"; // replace by X-Client-Transaction-Id value
-var client_uuid = "4062000b5974016d55c2c7bb785637ef1f7fadc67e0e8af506a52f02023e13c746ad3ca7f6cfb4eec1f8b42910cd48ba4105e542cb357966fd2e79ec4841e0857d6bb57360758ee94c52cf852e069b87"; // replace by X-Client-Uuid value
+var client_tid = "I38EhqO2AMF+VfRyDwpHyFhPqAdWIYKGL2EPlfH0u9pAU2YTSOsYdqad7z8ZT1JDXiONxCAHVcdT+gkjANtDExfHlerIIA"; // replace by X-Client-Transaction-Id value
+var client_uuid = "7372318dd7e88f768e2ba9bf44caef33ce615e8a0a18bdeeb28e5ed1d1b0d35f2a335500f11ba4d25a9b513bb51e87f5c540a04f875f423b242e334931bc4b3181deaf1802f3977b4f9aa66525858117"; // replace by X-Client-Uuid value
 var csrf_token = getCookie("ct0");
 var random_resource = "uYU5M2i12UhDvDTzN6hZPg";
 var random_resource_old_tweets = "H8OOoI-5ZE4NxgRr8lfyWg"
